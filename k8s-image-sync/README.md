@@ -28,12 +28,12 @@ set kubernetes version
 
 ## Example usage
 
+```
 uses: samlaudev/actions/k8s-image-sync@master
 with:
   username: ${{ secrets.DOCKER_USERNAME }}
-
   password:  ${{ secrets.DOCKER_PASSWORD }}
-
   owner: ${{ secrets.DOCKER_USERNAME }}
-
   kubernetes_version: v1.14.8 
+```
+
